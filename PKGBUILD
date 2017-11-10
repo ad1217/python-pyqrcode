@@ -11,9 +11,6 @@ url="https://pythonhosted.org/PyQRCode/"
 license=('CUSTOM')
 makedepends=('python-setuptools' 'python2-setuptools')
 _pkgname=PyQRCode
-install=
-changelog=
-noextract=()
 source=("https://files.pythonhosted.org/packages/source/P/${_pkgname}/${_pkgname}-${pkgver}.tar.gz"
         "LICENSE"
         "${_pkgname}-${pkgver}.tar.gz.sig"
