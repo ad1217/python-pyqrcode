@@ -17,12 +17,12 @@ install=
 changelog=
 noextract=()
 source=("https://files.pythonhosted.org/packages/source/P/${_pkgname}/${_pkgname}-${pkgver}.tar.gz"
-	"LICENSE"
+        "LICENSE"
         "${_pkgname}-${pkgver}.tar.gz.sig"
-	"LICENSE.sig")
+        "LICENSE.sig")
 sha512sums=('784262cb15c10f3581b0caeac6bba046686b35b8c0709ee78684b805b6cba49f4250a004dc5f7d393cc25929cbf815c6c3a94e284a77d20ff7224a8dde3a036a'
-	    '829167e63453a7be5089a8d1318645a69896147d81cb9591a2569bbbbd8d726a8d565d2d6306c1edf706e2367cf2f9a1de0606a1fe362190effa9797b693e1cb'
-	    'SKIP'
+            '829167e63453a7be5089a8d1318645a69896147d81cb9591a2569bbbbd8d726a8d565d2d6306c1edf706e2367cf2f9a1de0606a1fe362190effa9797b693e1cb'
+            'SKIP'
             'SKIP')
 
 package_python-pyqrcode() {
